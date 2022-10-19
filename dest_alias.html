@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const objA = { name: 'Raghav',
+    city: "indore",
+    detail: {contact: 258258, address: 69696969 } };
+
+    const {name, city, detail  } = objA
+    // const {contact,address} = detail;
+  const {name:uname, city:ucity, detail:udetail, company:ucompany='not available'} = objA;
+ const{contact:Ucontact, address:Uaddress} = detail;
+
+  console.log(uname, ucity, udetail,Ucontact,Uaddress,ucompany);
+    
+</script>
+</html>
